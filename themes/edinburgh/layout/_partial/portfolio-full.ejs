@@ -1,0 +1,23 @@
+<div class="portfolio-content">
+  <% if (item.photos && item.photos.length){ %>
+    <% item.photos.forEach(function(photo, i){ %>
+      <a href="<%- url_for(photo) %>" data-fancybox="images">
+        <img src="<%- url_for(photo) %>" />
+      </a>
+      <% }) %>
+        <% } %>
+        <% if (item.layout != 'photo') {%>
+        
+          <div class="col-12 mb-4">
+            <img class="img-fluid project-img" src="<%- config.root %><%- item.cover_image || theme.default_cover_image %>" />
+          </div>
+          <div class="col-lg-4 col-12 pt-3 px-4 pr-lg-5">
+            <h1>
+              <%- item.title || theme.default_post_title || "Untitled" %>
+            </h1>
+          </div>
+          <div class="col-lg-8 col-12 pt-lg-3 mb-4 pl-lg-5 px-lg-0 px-4 portfolio-content">
+            <%- item.content %>
+          </div>
+        <% } %>
+</div>
