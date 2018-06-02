@@ -73,7 +73,7 @@ input:focus, textarea:focus {
 	}
 }
 
-@media all and (min-width: 800px) {
+@media all {
   .fancybox-thumbs {
     top: auto;
     width: auto;
