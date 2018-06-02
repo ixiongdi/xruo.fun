@@ -76,7 +76,7 @@ pagination_dir: page
 theme: edinburgh
 
 menu:
-  GitHub: https://github.com/ixiongdi/
+  GitHub: https://github.com/ixiongdi/xruo.fun/
   Blog: https://1word.fun/
 
 # Deployment
@@ -88,18 +88,18 @@ deploy:
 # hexo-neat
 # neat_enable: true
 
-hfc_img:
-  enable: true
-  interlaced: false
-  multipass: false
-  optimizationLevel: 2
-  pngquant: false
-  progressive: false
-  webp: true
-  webpQuality: 75
-  gifslice: true
-  jpegtran: true
-  jpegrecompress: false
-  jpegrecompressQuality: 'medium'
-  optipng: true
-  svgo: true
+# hfc_img:
+#   enable: true
+#   interlaced: false
+#   multipass: false
+#   optimizationLevel: 2
+#   pngquant: false
+#   progressive: false
+#   webp: true
+#   webpQuality: 75
+#   gifslice: true
+#   jpegtran: true
+#   jpegrecompress: false
+#   jpegrecompressQuality: 'medium'
+#   optipng: true
+#   svgo: true
